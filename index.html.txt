@@ -1,0 +1,7 @@
+echo "# WetboekNH.github.io" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/01-01PABLO/WetboekNH.github.io.git
+git push -u origin main
